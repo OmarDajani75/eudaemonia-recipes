@@ -1,1 +1,1 @@
-# eudaemonia-recipes
+# eudaimonia-recipes
