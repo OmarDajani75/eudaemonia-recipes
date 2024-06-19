@@ -1,0 +1,28 @@
+#main-header,
+#secondary-header,
+#tertiary-header {
+  background-color: #219C90;
+  overflow: auto;
+  height: auto;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.desc-text {
+  color: #EE4E4E;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.list-item {
+  color: #EE4E4E;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;	
+}
+
+.mlukhia-image {
+  width: 450px;
+  height: auto;
+}
