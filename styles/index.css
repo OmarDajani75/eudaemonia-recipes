@@ -1,13 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.website-title,
+.meal-directory,
 #website-name {
   background-color: #219C90;
-  color: white;
-  display: inline-block;
+}
+/* Is this type of grouping needed/correct..? ^ */
+
+#website-name {
+  margin: 0px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+#website-name,
+.recipe {
+  color: white;
+}
+/* Is this type of grouping needed/correct..? ^ */
+
+#website-name:hover,
+.recipe:hover {
+  color: #EE4E4E;
+}
+/* Is this type of grouping needed/correct..? ^ */
+
+.meal-directory {
+  width: 300px; /* or max-wdith maybe..? */
+  margin: 0 auto;
+}
+
+.list {
+  text-align: center;
+  list-style: none;
 }
 
 .recipe {
-  color: #EE4E4E;
   text-decoration: none;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
+  padding: 10px;
 }
